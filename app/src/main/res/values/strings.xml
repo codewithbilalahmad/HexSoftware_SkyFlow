@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SkyFlow</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="feels_like">Feels like</string>
+    <string name="sun_rise">Sunrise</string>
+    <string name="sun_set">Sunset</string>
+    <string name="sea_level">Sea Level</string>
+    <string name="today">Today</string>
+    <string name="search">Search</string>
+    <string name="visibility">Visibility</string>
+    <string name="air_pressure">Air pressure</string>
+</resources>
