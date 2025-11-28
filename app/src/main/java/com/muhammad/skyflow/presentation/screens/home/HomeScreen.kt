@@ -55,7 +55,8 @@ fun HomeScreen() {
                     "Rain", "Drizzle" -> R.drawable.rain_background
                     "Thunderstorm" -> R.drawable.thunder_background
                     "Snow" -> R.drawable.snow_background
-                    "Mist", "Smoke", "Haze", "Dust", "Fog", "Sand", "Ash", "Squall", "Tornado" -> R.drawable.mist_background
+                    "Smoke" -> R.drawable.smoke_background
+                    "Mist", "Haze", "Dust", "Fog", "Sand", "Ash", "Squall", "Tornado" -> R.drawable.mist_background
                     else -> R.drawable.sunny_background
                 }
             ), contentScale = ContentScale.Crop,
@@ -136,7 +137,8 @@ fun HomeScreen() {
                                     "Rain", "Drizzle" -> R.drawable.rain
                                     "Thunderstorm" -> R.drawable.thunder
                                     "Snow" -> R.drawable.snow
-                                    "Mist", "Smoke", "Haze", "Dust", "Fog", "Sand", "Ash", "Squall", "Tornado" -> R.drawable.mist
+                                    "Smoke" -> R.drawable.smoke
+                                    "Mist", "Haze", "Dust", "Fog", "Sand", "Ash", "Squall", "Tornado" -> R.drawable.mist
                                     else -> R.drawable.sun
                                 },
                                 temperature = data.main.temp,
